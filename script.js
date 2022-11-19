@@ -29,7 +29,7 @@ function createBook(book){
     createDiv("div", book.title, "title", contain)
     createDiv("div", book.author, "author", contain)
     createDiv("div", book.pages, "num", contain)
-    createDiv("div", book.read, "title", contain)
+    createDiv("div", book.read, "state", contain)
     const btn = createDiv("button", "Remove", "del", contain)
     btn.addEventListener("click", () => remove(contain))
 }
