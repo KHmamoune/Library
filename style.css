@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.author::before {
+    content: "By: ";
+}
+
+.num::before {
+    content: "Pages: ";
+}
